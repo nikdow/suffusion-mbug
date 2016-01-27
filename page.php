@@ -8,7 +8,6 @@
 
 get_header();
 ?>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z1agHAa6eG8?autoplay=1" frameborder="0" allowfullscreen></iframe>
 <div id="main-col">
 <?php
 suffusion_page_navigation();
