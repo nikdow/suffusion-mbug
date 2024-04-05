@@ -18,6 +18,10 @@ class Suffusion_Category_Posts extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+
+        $template_path = get_template_directory();
+        require_once ($template_path . "/functions/media.php");
+
 		extract($args);
 
 		$selected_category = $instance["selected_category"];
